@@ -1,0 +1,194 @@
+/* color palette used for site: https://colorhunt.co/palette/125004 */
+
+/************************************** ROOT VARIABLES ******************************************/
+
+:root {
+  --darkThemeColor: #155e63;
+  --lightThemeColor: #76b39d;
+  --whiteTheme: #f9f8eb;
+  --greyTheme: #bab7b7;
+}
+
+/************************************** HTML ELEMENTS ******************************************/
+a{
+    color:var(--lightThemeColor);
+    font-weight: normal;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+}
+a:hover{
+    font-weight: bold;
+    color:var(--greyTheme);
+
+}
+
+body{
+  margin:0;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  color: var(--whiteTheme);
+  background-color: var(--lightThemeColor);
+  line-height: 1;
+}
+
+hr{
+    clear:both;
+}
+
+h1{
+  margin:50px auto 0 auto;
+  font-family: 'Bad Script', cursive;
+  font-size:5rem; /* 500% = 5 em ~ 80px */
+  color: var(--whiteTheme);
+}
+
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-size:2.5rem;
+    color: var(--whiteTheme);
+      font-weight: normal;
+}
+
+h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:var(--whiteTheme);
+    font-weight: normal;
+    font-size: 1.8rem;
+    width: 50%;
+    margin:0 auto;
+    line-height: 1.5;
+}
+
+p{
+    font-weight:normal;
+    line-height:2;
+    font-size:1.3rem;
+}
+/************************************** CLASSES ******************************************/
+
+.bathroom-row{
+    text-align: right;
+}
+
+.bottom-cloud{
+  position:absolute;
+  bottom:300px;
+  left:250px;
+}
+
+.by-line-copywrite{
+    margin-top:50px;
+    font-size: 1rem;
+    color:var(--greyTheme);
+}
+
+.contact-me{
+    font-weight:bold;
+}
+
+.contact-me-button {
+   background: var(--darkThemeColor);
+   background-image: -webkit-linear-gradient(top, var(--darkThemeColor), var(--lightThemeColor));
+   background-image: -moz-linear-gradient(top, var(--darkThemeColor), var(--lightThemeColor));
+   background-image: -ms-linear-gradient(top, var(--darkThemeColor), var(--lightThemeColor));
+   background-image: -o-linear-gradient(top, var(--darkThemeColor), var(--lightThemeColor));
+   background-image: linear-gradient(to bottom, var(--darkThemeColor), var(--lightThemeColor));
+   -webkit-border-radius: 19px;
+   -moz-border-radius: 19px;
+   border-radius: 19px;
+   color: var(--whiteTheme);
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 30px;
+   font-weight: 100;
+   padding: 20px 30px;
+   border: inset var(--whiteTheme) 4px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px auto;
+}
+
+.contact-me-button:hover {
+   border: outset  var(--greyTheme) 4px;
+   background: var(--lightThemeColor);
+   background-image: -webkit-linear-gradient(top, var(--lightThemeColor), var(--darkThemeColor));
+   background-image: -moz-linear-gradient(top, var(--lightThemeColor), var(--darkThemeColor));
+   background-image: -ms-linear-gradient(top, var(--lightThemeColor), var(--darkThemeColor));
+   background-image: -o-linear-gradient(top, var(--lightThemeColor), var(--darkThemeColor));
+   background-image: linear-gradient(to bottom, var(--lightThemeColor), var(--darkThemeColor));
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-container{
+    background-color:var(--darkThemeColor);
+    padding:60px 0;
+}
+
+.footer-link{
+    padding:0 20px;
+    text-decoration: none;
+}
+
+.kitchen-row{
+    text-align: left;
+}
+
+.page-divider-line{
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 5%;
+    border-color: var(--darkThemeColor);
+    margin-top:130px;
+    margin-bottom:130px;
+}
+
+.profile{
+    padding:25px;
+}
+
+.skill-image-bathrooms{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.skill-image-kitchens{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto;
+    line-height:2;
+}
+
+.skill-title{
+    text-decoration: underline;
+}
+
+.table-spacer{
+    visibility:hidden;
+    clear:both;
+    margin:5px auto;
+    height:1px;
+}
+
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+
+.topContainer{
+  padding-top:100px;
+  background-color:var(--darkThemeColor);
+  position:relative;
+}
